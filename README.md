@@ -1,5 +1,6 @@
 # budgetplanner.github.io
 Javascript Final Project - Budget Planner
+https://angsiewfan.github.io/budgetplanner.github.io/
 
 It's a page for your budgeting planning. In order to monitor your spending, submit your income & add your expenses based on the given category. As a result you will be able to view your total expenses & balance after spending. The expenses will be shown in the pie chart as well.
 
