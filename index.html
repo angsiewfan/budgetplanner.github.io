@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Budget Planner</title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+<body>
+    <h1>My Budget Planner</h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <p class="incomeText">Income</p>
+                <p class="income" id="idIncome">0.00</p>
+            </div>
+            <div class="column">
+                <p class="expenseText">Expenses</p>
+                <p class="expense"  id="idExpense">0.00</p>
+            </div>
+            <div class="column">
+                <p class="balanceText">Balance</p>
+                <p class="balance"  id="idBalance">0.00</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="bodyContainer">
+        <div class="row">
+            <div class="column">
+                <p class="submitIncome">Enter your income</p>
+                <input id="inputIncome" type="number" placeholder="Your income" min="0" class="addIncome">
+                <button id="buttonIncome">Submit</button>
+                <div class="messageIncome" id="messageIncome">
+                </div>
+            </div>
+        
+            <div class="column">
+                <div class='wrapper'>
+                    <p class="addExpense">Add your expenses</p>
+                    <input id="inputExpense" type="number" placeholder="Amount" min="0" class="addAmount">
+                    <select id="arrayExpenses"></select>
+                    <button id="buttonAdd" class="addItem">+</button>
+                    <div class="message" id="message">
+                    </div>
+                    <br>
+                    <!-- <button id="clearAll">Reset</button> -->
+                    <p class="listOfExpenses">List of expenses</p>
+                    <ul id="list" class="list">
+                    </ul>
+                </div>
+            </div>
+            <div class="column" id="piechart"></div>
+        </div>
+    </div>
+
+    <script src="calculate.js"></script>
+</body>
+</html>
