@@ -12,7 +12,7 @@ Difficulties:
 Area of improvement:
 1. Add function for user to add new category
 2. Update function for replacing category instead forcing the user to delete before insert the same category
-3. To improve web design
+3. To improve web design in order to be able to be viewed in mobile screen.
 
 Team members:
 1. Ang Siew Fan
